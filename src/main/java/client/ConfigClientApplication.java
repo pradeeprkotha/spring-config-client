@@ -32,7 +32,7 @@ class MessageRestController {
         return this.message;
     }
 
-    @RequestMapping(value = "/available")
+    @RequestMapping(value = "/")
     public String available() {
         JSONObject json = new JSONObject();
         try {
