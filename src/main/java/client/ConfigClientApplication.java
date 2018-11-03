@@ -27,7 +27,7 @@ class MessageRestController {
     @Value("${message:Hello test}")
     private String message;
 
-    @RequestMapping("/message")
+    @RequestMapping("/client_urls")
     String getMessage() {
         return this.message;
     }
